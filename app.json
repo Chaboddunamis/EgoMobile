@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Ego - Where Attention Is Power",
+    "slug": "ego-mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/egologo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/egologo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8A2BE2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ego.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/egologo.png",
+        "backgroundColor": "#8A2BE2"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ego.mobile"
+    },
+    "web": {
+      "favicon": "./assets/egologo.png"
+    },
+    "description": "Ego is a luxury social auction platform where African women creators monetize attention through competitive bidding. Where Attention Is Power.",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "githubUrl": "https://github.com/ego/mobile-app",
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
